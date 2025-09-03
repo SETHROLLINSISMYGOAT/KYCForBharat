@@ -1,0 +1,11 @@
+{
+  "doc_capture_start": "Hello! Let's get started. Please hold your document steady and place it within the frame.",
+  "image_blurry": "That image looks a little blurry. Could you please try again in a well-lit area?",
+  "capture_success": "Perfect! That looks good. Now you can proceed to the next step.",
+  "capture_fail": "Oh no, something went wrong. Please try taking the photo one more time.",
+  "face_auth_start": "Welcome to face authentication. Please look directly at the camera and blink once.",
+  "face_not_detected": "I can't see your face. Please move closer and make sure your face is in the center of the frame.",
+  "blink_prompt": "Please blink to continue. Just one blink will do!",
+  "liveness_passed": "Liveness check passed! Capturing your photo now. Hold still.",
+  "face_captured": "Great! Your face photo is captured. You can now continue to the final review."
+}

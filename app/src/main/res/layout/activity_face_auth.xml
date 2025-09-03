@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="Face Authentication / चेहरे की पहचान"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#EEEEEE"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvPrompt"
+        android:text="Instruction: Look straight and blink twice. / सीधे देखें और दो बार झपकाएँ"
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStartLiveness"
+        android:text="Start Check / चेक शुरू करें"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRetake"
+        android:text="Retake / फिर से लें"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#9E9E9E"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:text="Continue / आगे बढ़ें"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+[
+  {"q": "Why do we need KYC?", "a": "KYC is required by law to verify your identity and prevent fraud."},
+  {"q": "Is my data safe?", "a": "Yes, your documents are encrypted and securely transmitted."},
+  {"q": "What if internet is weak?", "a": "The app saves your progress and retries automatically when network is available."}
+]

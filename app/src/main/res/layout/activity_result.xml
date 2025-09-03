@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_img"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="KYC Successful / KYC सफल"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:text="Reference: KYC-2025-XXXX"
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:text="Done / तैयार"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp" />
+
+</LinearLayout>
