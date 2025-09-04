@@ -1,0 +1,1 @@
+KYC for Bharat app, a lightweight digital onboarding solution. The app is optimized for low-end devices and unreliable networks, featuring an offline-first architecture, a simplified user flow, and a voice-guided assistant to improve accessibility and user experience. This APK is ready for download and testing.
